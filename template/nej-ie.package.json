@@ -1,0 +1,17 @@
+{
+    "name": "nej-ie.js",
+    "version": "0.5.3",
+    "description": "带有 patch 的 commonjs 版 nej",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kaola-fed/nej.js.git"
+    },
+    "author": "netease",
+    "bugs": {
+      "url": "https://github.com/kaola-fed/nej.js/issues"
+    },
+    "homepage": "https://github.com/kaola-fed/nej.js#readme",
+    "license": "MIT"
+  }
+  
