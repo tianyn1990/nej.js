@@ -96,11 +96,8 @@ NEJ.patch = function (_exp, _deps, _callback) {
         _result.isVerOK(_kernel[_result.vkey])) {
         var _argc = [],
             _deps = _args[1];
-        if (!!_deps) {
-            var _xmap = arguments.callee.caller.kmap || {};
-            for (var i = 0, l = _deps.length; i < l; i++) {
-                _argc.push(__rcache[_xmap[_deps[i]]] || {});
-            }
+        if (!!_deps && _deps.length > 0) {
+            return;
         }
         _args[2].apply(p, _argc);
     }
